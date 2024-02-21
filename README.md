@@ -1,3 +1,19 @@
+# Welcome to my personal website repo!
+
+You can find it [here](https://juliagontijo.github.io/). 
+
+## Tools used
+
+This project was created with HTML, CSS and React App as github pages. \
+You can find more information on Creating a React App [here](https://github.com/facebook/create-react-app), and on how to make it a GitHub Pages with github's domain [here](https://github.com/gitname/react-gh-pages).
+
+## Resources used for learning and as inspiration
+
+[soumyajit Portfolio Website](https://soumyajit.vercel.app/) \
+[Create React App Documentation](https://create-react-app.dev/) \
+[React Bootstrap Documentation](https://react-bootstrap.netlify.app/) \
+[Video tutorial for React App](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3) \
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

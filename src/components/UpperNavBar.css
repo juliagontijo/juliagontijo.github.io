@@ -1,0 +1,33 @@
+/* UpperNavBar.css */
+
+.nav-item-custom {
+    font-family: 'YourFontFamily', sans-serif; /* Replace with your desired font-family */
+}
+  
+  /* Style for the Nav.Link to override default styles */
+  .nav-item-custom a.nav-link {
+    color: #7EC8E3; /* Replace with your desired text color */
+  }
+  
+  /* Optional: Style for hover state */
+  .nav-item-custom a.nav-link:hover {
+    background-color: #C3E0E5    ; /* Replace with your desired hover background color */
+    border-radius: 10px;
+    color: white; /* Replace with your desired hover text color */
+  }
+  
+  .nav-item-custom a.nav-link.active { 
+    color: #2E8BC0; /* Replace with your desired hover text color */
+  }
+
+
+  .navbar-brand-custom {
+    color: #2E8BC0;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    }
+
+    .navbar-brand-custom:hover {
+        color: #7EC8E3;
+        }
