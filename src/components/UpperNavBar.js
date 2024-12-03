@@ -28,9 +28,9 @@ function UpperNavBar({ onPageChange }) {
           <Nav.Item className="nav-item-custom">
             <NavLink to="/resume" className="nav-link" onClick={() => handleLinkClick('resume')}>Resume</NavLink>
           </Nav.Item>
-          <Nav.Item className="nav-item-custom">
+          {/* <Nav.Item className="nav-item-custom">
             <NavLink to="/interests" className="nav-link" onClick={() => handleLinkClick('interests')}>What we could talk about</NavLink>
-          </Nav.Item>
+          </Nav.Item> */}
           <Nav.Item className="nav-item-custom">
           <NavLink to="/contact" className="nav-link" onClick={() => handleLinkClick('contact')}>Contact</NavLink>
         </Nav.Item>

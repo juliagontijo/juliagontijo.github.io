@@ -96,7 +96,7 @@ class App extends Component{
             <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/interests" element={<Projects />} />
+            {/* <Route path="/interests" element={<Projects />} /> */}
             <Route path="/contact" element={<Contact/>} />
           </Routes>
           </div>
