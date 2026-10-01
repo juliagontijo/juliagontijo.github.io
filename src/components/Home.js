@@ -43,24 +43,32 @@ export const Home = () => {
                     </Row>
                     <Row className="about-me-homepage">
                         <p>
-                            Hi, I'm <strong>Julia Gontijo Lopes</strong>, a Computer Science master's student at New York University working on efficient AI systems for visual and multimodal intelligence. My work follows the path from model behavior to deployment: profiling production video pipelines, reducing redundant visual tokens, and measuring the latency, memory, throughput, and accuracy tradeoffs that determine whether an idea works in practice.
+                            Hi, I'm <strong>Julia Gontijo Lopes</strong>, a Computer Science master's student at New York University and a Computer Science graduate from PUC Minas University, Brazil. I'm interested in advancing AI and machine learning systems to deliver stronger capabilities with lower computational cost, especially for applications that understand and generate images, video, and the physical world.
                         </p>
                         <p>
-                            I'm especially interested in <strong>hardware-systems-ML co-design</strong>: how model architectures, data pipelines, inference runtimes, and accelerators can be shaped together to make intelligent applications faster and more efficient. In recent work, I cut a multimodal video-processing pipeline from 28 to 12 minutes, explored token-pruning methods that reduced inference latency by 20% and FLOPs by up to 65%, and deployed gaze-conditioned vision-language inference under edge memory constraints.
+                            My research began with questions around <strong>infinite context</strong>: how models can capture long-range dependencies without paying the quadratic cost of attention. That thread now extends into efficient multimodal inference and hardware-systems-ML co-design. In recent work, I cut a production multimodal video pipeline from 28 to 12 minutes and studied visual-token pruning that reduced inference latency by 20% and FLOPs by up to 65%.
                         </p>
                         <p>
-                            These problems connect the areas I want to keep pushing: ML infrastructure and inference, computer vision and vision-language models, robotics and physical AI, and image and video understanding and generation. I'm drawn to work at the boundary between models and machines, where hardware-aware systems design and better world understanding translate into applications that are faster, smaller, and more capable.
+                            I'm actively working across two connected areas:
                         </p>
+                        <ul>
+                            <li>
+                                <strong>Model efficiency:</strong> efficient representations for long context and visual data, including positional encodings, visual-token selection, compression, and knowledge distillation.
+                            </li>
+                            <li>
+                                <strong>Systems efficiency:</strong> co-designing models, data pipelines, inference runtimes, and accelerators for computer vision, VLMs, image and video generation, robotics, physical AI, and edge deployment.
+                            </li>
+                        </ul>
                         <hr />
                         <p>
-                            Away from the computer, I spend time with my golden retriever{" "}
+                            I'm also interested in other things besides models. I have a big golden retriever called{" "}
                             <span
                                 style={{ color: "#2E8BC0", cursor: "pointer" }}
                                 onClick={togglePopup}
                             >
                                 Popcorn
                             </span>
-                            , read fantasy romance, and stay active.
+                            , I love to read fantasy romances and living a healthy and active lifestyle.
                         </p>
                     </Row>
                 </Col>
