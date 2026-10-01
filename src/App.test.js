@@ -12,8 +12,11 @@ test("renders the resume-driven portfolio content", () => {
   ).toBeInTheDocument();
   expect(screen.getByText(/agentic video editing tools/i)).toBeInTheDocument();
   expect(screen.queryByLabelText(/selected results/i)).not.toBeInTheDocument();
-  expect(screen.getByRole("link", { name: /resume/i })).toHaveAttribute(
-    "download",
-    "Julia_Gontijo_Lopes_Resume.pdf"
+  const resumeLink = screen.getByRole("link", { name: /resume/i });
+  expect(resumeLink).toHaveAttribute(
+    "href",
+    "/Julia_Gontijo_Lopes_Resume.pdf"
   );
+  expect(resumeLink).toHaveAttribute("target", "_blank");
+  expect(resumeLink).not.toHaveAttribute("download");
 });

@@ -203,7 +203,6 @@ export default function App() {
                 href={resumePdf}
                 target="_blank"
                 rel="noreferrer"
-                download="Julia_Gontijo_Lopes_Resume.pdf"
               >
                 <AiOutlineFileText /> Resume
               </a>
