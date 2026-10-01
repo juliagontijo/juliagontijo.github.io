@@ -7,7 +7,7 @@ import './Universal.css';
 function ProfilePhoto() {
     return (
         <img
-            src={require("../images/profile-photo.jpg")}
+            src={require("../images/profile-photo.JPG")}
             alt="Julia Gontijo"
             style={{ height: 300, width: 300, padding: 10 }}
         />
@@ -43,32 +43,24 @@ export const Home = () => {
                     </Row>
                     <Row className="about-me-homepage">
                         <p>
-                            Hi, I'm <strong>Julia Gontijo Lopes</strong>, a Computer Science graduate from PUC Minas University, Brazil. I'm passionate about advancing the foundation of language models to achieve better performance while reducing computational costs.
+                            Hi, I'm <strong>Julia Gontijo Lopes</strong>, a Computer Science master's student at New York University working on efficient AI systems for visual and multimodal intelligence. My work follows the path from model behavior to deployment: profiling production video pipelines, reducing redundant visual tokens, and measuring the latency, memory, throughput, and accuracy tradeoffs that determine whether an idea works in practice.
                         </p>
                         <p>
-                            My primary focus is on solving the challenge of <strong>infinite context</strong>, a critical issue in the evolution of language models. Achieving this requires breakthroughs in architecture research and inference efficiency.
+                            I'm especially interested in <strong>hardware-systems-ML co-design</strong>: how model architectures, data pipelines, inference runtimes, and accelerators can be shaped together to make intelligent applications faster and more efficient. In recent work, I cut a multimodal video-processing pipeline from 28 to 12 minutes, explored token-pruning methods that reduced inference latency by 20% and FLOPs by up to 65%, and deployed gaze-conditioned vision-language inference under edge memory constraints.
                         </p>
                         <p>
-                            I'm particularly interested in overcoming two major bottlenecks:
+                            These problems connect the areas I want to keep pushing: ML infrastructure and inference, computer vision and vision-language models, robotics and physical AI, and image and video understanding and generation. I'm drawn to work at the boundary between models and machines, where hardware-aware systems design and better world understanding translate into applications that are faster, smaller, and more capable.
                         </p>
-                        <ul>
-                            <li>
-                                Developing effective and efficient <strong>positional encodings</strong> to capture long-range dependencies.
-                            </li>
-                            <li>
-                                Addressing the <strong>quadratic scaling of attention</strong>, which limits the scalability of current models.
-                            </li>
-                        </ul>
                         <hr />
                         <p>
-                            I'm also interested in other things besides models. I have a big golden retriever called{" "}
+                            Away from the computer, I spend time with my golden retriever{" "}
                             <span
                                 style={{ color: "#2E8BC0", cursor: "pointer" }}
                                 onClick={togglePopup}
                             >
                                 Popcorn
                             </span>
-                            , I love to read fantasy romances and living a healthy and active lifestyle.
+                            , read fantasy romance, and stay active.
                         </p>
                     </Row>
                 </Col>

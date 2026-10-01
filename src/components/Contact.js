@@ -12,7 +12,12 @@ function Contact () {
     <Container className ="full-screen-container vertical-stack">
         <Row xs={12}>
             <Col className="center-content">
-            <h1>This is how you can reach out to me!</h1>
+            <div className="contact-intro">
+                <h1>Let's connect</h1>
+                <p>
+                    I enjoy conversations about the systems behind efficient intelligence, from accelerators and inference infrastructure to computer vision, multimodal models, robotics, and generative media. If you are building AI that must understand or generate images, video, or the physical world under real latency, memory, and compute constraints, I would be glad to compare notes and explore how I could contribute.
+                </p>
+            </div>
             </Col>
         </Row>
         <Row xs={12}  style={{paddingTop:'30px'}}>
