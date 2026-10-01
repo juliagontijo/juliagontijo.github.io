@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ad50c429.css",
-    "main.js": "/static/js/main.f66730e8.js",
+    "main.js": "/static/js/main.803ff73b.js",
     "static/js/453.4de67f2d.chunk.js": "/static/js/453.4de67f2d.chunk.js",
     "static/media/popcorn.JPG": "/static/media/popcorn.5addf70ffc181532a3e6.JPG",
     "static/media/profile-photo.jpg": "/static/media/profile-photo.7fbdad6321c490121db4.jpg",
-    "static/media/MyResume_JuliaGontijoLopes.pdf": "/static/media/MyResume_JuliaGontijoLopes.b409b9e41419409e50f0.pdf",
     "index.html": "/index.html",
     "main.ad50c429.css.map": "/static/css/main.ad50c429.css.map",
-    "main.f66730e8.js.map": "/static/js/main.f66730e8.js.map",
+    "main.803ff73b.js.map": "/static/js/main.803ff73b.js.map",
     "453.4de67f2d.chunk.js.map": "/static/js/453.4de67f2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad50c429.css",
-    "static/js/main.f66730e8.js"
+    "static/js/main.803ff73b.js"
   ]
 }
